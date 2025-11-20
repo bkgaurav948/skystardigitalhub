@@ -1,39 +1,90 @@
 <!DOCTYPE html>
-<html lang+"en">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Gaurav BK - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkyStar Digital Hub — Rise Your Brand</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <body>
-    <header>
-<h1>Hello, I am Gaurav!</h1>
- <p>Welcome to my portfolio website.</p>
-    </header>
-    <section id="about">
-        <h2>About me</h2>
-        <p> Your introduction here..</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-        My Projects are Live Soon here 
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="Image/Brand.png" alt="SkyStar" class="logo" />
+      </div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#portfolio">Portfolio</a>
+        <a class="btn" href="#contact">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container grid">
+        <div class="hero-left">
+          <h1>Rise Your Brand Today, <span class="gold">Shine Like a Digital Star.</span></h1>
+          <p class="lead">Professional digital marketing & IT solutions to help your business grow — social media, websites, apps and more.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#contact">Get Started</a>
+            <a class="btn ghost" href="#packages">View Packages</a>
+          </div>
         </div>
+        <div class="hero-right">
+          <div class="mockup">
+            <!-- Placeholder for hero illustration or video -->
+            <img src="Image/Brand.png" alt="Hero mockup" />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
-        <h2 background="red">
-            Contact
-        </h2>
-        <p >
-            Email:bkgaurav984@gmail.com
-        </p>
-        <p>GitHub: https://bkgaurav948.github.io/bkgaurav.github.io/
-</p>
+    <section id="services" class="services container">
+      <h2>Our Services</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Social Media Management</h3>
+          <p>Content strategy,  creatives, reels and paid ads.</p>
+        </article>
+        <article class="card">
+          <h3>Website Development</h3>
+          <p>Fast, SEO-friendly websites and apps.</p>
+        </article>
+        <article class="card">
+          <h3>Digital Ads & SEO</h3>
+          <p>Performance marketing that converts.</p>
+        </article>
+      </div>
     </section>
-    
-   
+
+    <section id="packages" class="packages container">
+      <h2>Service Packages</h2>
+      <div class="grid-3">
+        <div class="package">Starter<br/>Rs. 8k–12k</div>
+        <div class="package">Growth<br/>Rs. 15k–25k</div>
+        <div class="package">Premium<br/>Rs. 30k–50k</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Book a Free Consultation</h2>
+      <form class="contact-form">
+        <input placeholder="Name" required />
+        <input placeholder="Email" type="email" required />
+        <select><option>Service of interest</option><option>Social</option><option>Website</option></select>
+        <textarea placeholder="Tell us about your project" rows="4"></textarea>
+        <button class="btn primary">Send Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© SkyStar Digital Hub — Rise Your Brand Today. Dang, Nepal • info@skystardigitalhub.com</small>
+    </div>
+  </footer>
 </body>
 </html>
-
